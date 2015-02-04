@@ -1,0 +1,12 @@
+name             'mydevmachine'
+maintainer       'YOUR_NAME'
+maintainer_email 'YOUR_EMAIL'
+license          'All rights reserved'
+description      'Installs/Configures mydevmachine'
+long_description 'Installs/Configures mydevmachine'
+version          '0.1.0'
+
+depends          'apt'
+depends          'users'
+depends          'java', '~> 1.31.0'
+depends          'prezto', '~> 0.1.4'
