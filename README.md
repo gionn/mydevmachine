@@ -1,10 +1,10 @@
 # mydevmachine-cookbook
 
-TODO: Enter the cookbook description here.
+A chef cookbook that I use to configure my development machine.
 
 ## Supported Platforms
 
-TODO: List your supported platforms.
+Ubuntu 14.04
 
 ## Attributes
 
@@ -39,4 +39,4 @@ Include `mydevmachine` in your node's `run_list`:
 
 ## License and Authors
 
-Author:: YOUR_NAME (<YOUR_EMAIL>)
+Author:: Giovanni Toraldo (<me@gionn.net>)
