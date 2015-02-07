@@ -3,8 +3,8 @@ DEPENDENCIES
     path: .
     metadata: true
   prezto
-    git: https://github.com/leifcr/chef-prezto.git
-    revision: 7918dead69945c0af3723a414a4831092d9b1fed
+    git: https://github.com/gionn/chef-prezto.git
+    revision: 8198fb158c53cedb281844a34bd387aee5b3be68
   pyenv
     git: https://github.com/sds/chef-pyenv.git
     revision: 57b8c75066f4268f81b4736cd77d6398c4edd08c
