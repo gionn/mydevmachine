@@ -13,6 +13,7 @@ end
 
 include_recipe 'apt'
 
+package 'aptitude'
 package 'git'
 package 'chromium-browser'
 package 'debconf-utils'
@@ -25,8 +26,6 @@ users_manage 'dev' do
   action [ :remove, :create ]
 end
 
-include_recipe 'prezto::shared'
-
 include_recipe 'mydevmachine::atom'
 include_recipe 'mydevmachine::java'
 include_recipe 'mydevmachine::ruby'
@@ -34,3 +33,4 @@ include_recipe 'mydevmachine::python'
 include_recipe 'mydevmachine::nodejs'
 include_recipe 'mydevmachine::vagrant'
 include_recipe 'mydevmachine::chefdk'
+include_recipe 'mydevmachine::zsh'
