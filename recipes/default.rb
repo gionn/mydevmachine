@@ -14,6 +14,7 @@ end
 include_recipe 'apt'
 
 package 'aptitude'
+package 'apt-file'
 package 'git'
 package 'chromium-browser'
 package 'debconf-utils'
