@@ -1,7 +1,0 @@
-{
-  "id": "bofh",
-  "password": "$1$Oycfukcq$fpHtBJdJwhYtQ3l9j1zz2.",
-  "groups": [ "sudo", "dev" ],
-  "shell": "\/bin\/zsh",
-  "comment": "BOFH"
-}
