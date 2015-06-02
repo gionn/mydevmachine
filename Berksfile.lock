@@ -3,8 +3,8 @@ DEPENDENCIES
     path: .
     metadata: true
   prezto
-    git: https://github.com/gionn/chef-prezto.git
-    revision: 8198fb158c53cedb281844a34bd387aee5b3be68
+    git: https://github.com/leifcr/chef-prezto.git
+    revision: 7689e0e36e71b108cb52988e7cb05e522ac4824f
   pyenv
     git: https://github.com/sds/chef-pyenv.git
     revision: 57b8c75066f4268f81b4736cd77d6398c4edd08c
@@ -22,15 +22,13 @@ GRAPH
   ark (0.9.0)
     7-zip (>= 0.0.0)
     windows (>= 0.0.0)
-  build-essential (2.1.3)
-  chef_handler (1.1.6)
+  build-essential (2.2.3)
+  chef_handler (1.1.9)
   dmg (2.2.2)
-  git (4.1.0)
+  git (4.2.2)
     build-essential (>= 0.0.0)
     dmg (>= 0.0.0)
-    runit (>= 1.0)
     windows (>= 0.0.0)
-    yum (~> 3.0)
     yum-epel (>= 0.0.0)
   java (1.31.0)
   mydevmachine (0.1.0)
@@ -55,14 +53,10 @@ GRAPH
     java (> 1.4.0)
     ruby_build (>= 0.0.0)
   ruby_build (0.8.0)
-  runit (1.5.14)
-    build-essential (>= 0.0.0)
-    yum (~> 3.0)
-    yum-epel (>= 0.0.0)
   users (1.7.1)
-  windows (1.36.1)
+  windows (1.37.0)
     chef_handler (>= 0.0.0)
-  yum (3.5.2)
+  yum (3.6.0)
   yum-epel (0.6.0)
     yum (~> 3.0)
   zsh (1.0.1)
