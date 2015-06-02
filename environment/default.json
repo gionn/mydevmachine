@@ -1,0 +1,11 @@
+{
+  "name": "default",
+  "default_attributes": {
+    "vagrant": {
+      "version": "1.7.2",
+      "user": "gionn"
+    }
+  },
+  "json_class": "Chef::Environment",
+  "chef_type": "environment"
+}
