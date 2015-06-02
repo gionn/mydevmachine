@@ -14,3 +14,5 @@ execute 'accept-oracle-license' do
 end
 
 package 'oracle-java8-installer'
+
+package 'maven'
