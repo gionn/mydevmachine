@@ -1,2 +1,2 @@
 
-default['mydevmachine']['chefdk_version'] = '0.5.1-1'
+default['mydevmachine']['chefdk_version'] = '0.6.0-1'
