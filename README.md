@@ -1,41 +1,21 @@
-# mydevmachine-cookbook
+# mydevmachine cookbook
 
-A chef cookbook that I use to configure my development machine.
+[![Circle CI](https://circleci.com/gh/gionn/mydevmachine.svg?style=svg)](https://circleci.com/gh/gionn/mydevmachine)
+
+A Chef cookbook that I use to configure my development laptop.
 
 ## Supported Platforms
 
-Ubuntu 14.04
+Ubuntu 15.04
 
-## Attributes
+## Requirements
 
-<table>
-  <tr>
-    <th>Key</th>
-    <th>Type</th>
-    <th>Description</th>
-    <th>Default</th>
-  </tr>
-  <tr>
-    <td><tt>['mydevmachine']['bacon']</tt></td>
-    <td>Boolean</td>
-    <td>whether to include bacon</td>
-    <td><tt>true</tt></td>
-  </tr>
-</table>
+* Chef-DK already installed
 
 ## Usage
 
-### mydevmachine::default
-
-Include `mydevmachine` in your node's `run_list`:
-
-```json
-{
-  "run_list": [
-    "recipe[mydevmachine::default]"
-  ]
-}
-```
+* Clone repository
+* Run converge.sh
 
 ## License and Authors
 
