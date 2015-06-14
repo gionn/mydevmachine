@@ -39,7 +39,6 @@ GRAPH
     pyenv (~> 0.1.0)
     rbenv (~> 0.7.3)
     ruby_build (~> 0.8.0)
-    users (~> 1.7.1)
     vagrant (>= 0.0.0)
   nodejs (2.2.0)
     apt (>= 0.0.0)

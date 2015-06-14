@@ -7,7 +7,6 @@ long_description 'Installs/Configures mydevmachine'
 version          '0.1.0'
 
 depends          'apt', '~> 2.6.1'
-depends          'users', '~> 1.7.1'
 depends          'java', '~> 1.31.0'
 depends          'prezto', '~> 0.1.4'
 depends          'rbenv', '~> 0.7.3'

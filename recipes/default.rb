@@ -21,11 +21,12 @@ package 'debconf-utils'
 package 'ifstat'
 package 'zsh'
 
-include_recipe 'users'
-users_manage 'dev' do
-  group_id 2300
-  action [ :remove, :create ]
+group 'dev' do
+  gid 2300
+  action :create
 end
+
+include_recipe 'mydevmachine::users'
 
 include_recipe 'mydevmachine::atom'
 include_recipe 'mydevmachine::java'
