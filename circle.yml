@@ -7,9 +7,6 @@ machine:
 dependencies:
   override:
     - docker info
-    - gem install berkshelf
-    - gem install test-kitchen
-    - gem install kitchen-docker
 
 test:
   override:
