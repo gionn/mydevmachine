@@ -4,10 +4,6 @@ machine:
   services:
     - docker
 
-dependencies:
-  override:
-    - docker info
-
 test:
   override:
     - kitchen test
