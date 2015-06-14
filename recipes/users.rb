@@ -4,7 +4,7 @@ search(:users, "*:*").each do |user|
     comment user['comment']
     uid   user['uid']
     gid   user['gid']
-    home "/home/#{user['uid']}"
+    home "/home/#{user['id']}"
     shell user['shell']
   end
 end
