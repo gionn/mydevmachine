@@ -1,0 +1,16 @@
+machine:
+  ruby:
+    version: 2.2.0
+  services:
+    - docker
+
+dependencies:
+  override:
+    - docker info
+    - gem install test-kitchen
+    - gem install berkshelf
+    - gem install kitchen-docker
+
+test:
+  override:
+    - kitchen test
