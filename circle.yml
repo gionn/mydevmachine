@@ -6,4 +6,4 @@ machine:
 
 test:
   override:
-    - kitchen test
+    - bundle exec kitchen test
