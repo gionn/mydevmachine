@@ -13,6 +13,7 @@ end
 search(:users, "*:*").each do |user|
   user['rubies'].each do |version|
     ruby_build_ruby version
+  end
 end
 
 include_recipe "rbenv::user"
