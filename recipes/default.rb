@@ -13,6 +13,7 @@ end
 
 include_recipe 'apt'
 
+package 'build-essential'
 package 'aptitude'
 package 'apt-file'
 package 'git'
