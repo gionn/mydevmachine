@@ -29,5 +29,8 @@
   "zprofile": [
     "_byobu_sourced=1 . /usr/bin/byobu-launch 2>/dev/null || true",
     "export EDITOR=vim"
+  ],
+  "rubies": [
+    "2.2.0"
   ]
 }
