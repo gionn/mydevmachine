@@ -2,7 +2,6 @@
 apt_repository 'java' do
   uri          'ppa:webupd8team/java'
   distribution node['lsb']['codename']
-  notifies :run, 'execute[apt-get update]', :immediately
 end
 
 execute 'accept-oracle-license' do
@@ -14,5 +13,4 @@ execute 'accept-oracle-license' do
 end
 
 package 'oracle-java8-installer'
-
 package 'maven'
