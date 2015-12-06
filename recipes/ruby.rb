@@ -1,6 +1,4 @@
 
-include_recipe "ruby_build"
-
 # https://github.com/sstephenson/ruby-build/wiki#suggested-build-environment
 %w(autoconf bison build-essential).each do |build_pkg|
   package build_pkg
@@ -10,10 +8,14 @@ end
   package dep_pkg
 end
 
+include_recipe "ruby_build"
+include_recipe "ruby_rbenv::user"
+
 search(:users, "*:*").each do |user|
   user['rubies'].each do |version|
-    ruby_build_ruby version
+    rbenv_ruby version do
+      user user['id']
+      action :install
+    end
   end
 end
-
-include_recipe "rbenv::user"
