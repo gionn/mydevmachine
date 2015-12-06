@@ -4,7 +4,7 @@ DEPENDENCIES
     metadata: true
   nvm
     git: https://github.com/gionn/nvm.git
-    revision: 567fc4b1d90dc83f739ee6390c9e5a8afb30a320
+    revision: 5c5b81e53c6370228f0e9e28afef018428035318
   prezto
     git: https://github.com/leifcr/chef-prezto.git
     revision: 7689e0e36e71b108cb52988e7cb05e522ac4824f
