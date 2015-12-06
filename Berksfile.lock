@@ -2,6 +2,9 @@ DEPENDENCIES
   mydevmachine
     path: .
     metadata: true
+  nvm
+    git: https://github.com/gionn/nvm.git
+    revision: 567fc4b1d90dc83f739ee6390c9e5a8afb30a320
   prezto
     git: https://github.com/leifcr/chef-prezto.git
     revision: 7689e0e36e71b108cb52988e7cb05e522ac4824f
