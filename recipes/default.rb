@@ -13,16 +13,6 @@ end
 
 include_recipe 'apt'
 
-package 'build-essential'
-package 'aptitude'
-package 'apt-file'
-package 'git'
-package 'vim'
-package 'chromium-browser'
-package 'debconf-utils'
-package 'ifstat'
-package 'zsh'
-
 group 'dev' do
   gid 2300
   action :create

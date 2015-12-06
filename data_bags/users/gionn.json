@@ -30,6 +30,19 @@
     "_byobu_sourced=1 . /usr/bin/byobu-launch 2>/dev/null || true",
     "export EDITOR=vim"
   ],
+  "packages": [
+    "aptitude",
+    "apt-file",
+    "build-essential",
+    "byobu",
+    "chromium-browser",
+    "debconf-utils",
+    "git",
+    "htop",
+    "ifstat",
+    "rsync",
+    "vim"
+  ],
   "rubies": [
     "2.2.0"
   ]

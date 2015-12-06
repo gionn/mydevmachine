@@ -7,4 +7,8 @@ search(:users, "*:*").each do |user|
     home "/home/#{user['id']}"
     shell user['shell']
   end
+
+  user['packages'].each do |package_name|
+    package package_name
+  end
 end
