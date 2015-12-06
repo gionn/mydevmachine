@@ -1,6 +1,5 @@
 
 include_recipe 'prezto'
-package 'byobu'
 
 search(:users, "*:*").each do |user|
   file "/home/#{user['id']}/.zprofile" do
