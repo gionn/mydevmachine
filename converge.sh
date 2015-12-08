@@ -5,6 +5,5 @@ if ! chef-client -v > /dev/null; then
   curl https://omnitruck.chef.io/install.sh | sudo bash -s -- -c current -P chefdk
 fi
 
-rm -fr cookbooks
-berks vendor cookbooks
+berks vendor "${HOME}/.local/share/chef-client-cache/cookbooks"
 sudo chef-client -z -c chef.rb
