@@ -23,6 +23,9 @@
       "command-not-found",
       "dpkg",
       "git",
+      "python",
+      "node",
+      "ruby",
       "rsync"
     ]
   },
