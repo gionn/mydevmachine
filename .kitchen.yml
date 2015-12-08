@@ -7,10 +7,10 @@ provisioner:
   name: chef_zero
 
 platforms:
-  - name: ubuntu-14.04
+  - name: ubuntu-15.04
 
 suites:
-  - name: users
+  - name: default
     run_list:
-      - "mydevmachine::users"
+      - "mydevmachine::default"
     attributes:
