@@ -40,6 +40,7 @@
     "byobu",
     "chromium-browser",
     "debconf-utils",
+    "gimp",
     "git",
     "htop",
     "ifstat",
