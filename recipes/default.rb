@@ -11,6 +11,7 @@ include_recipe 'mydevmachine::zsh'
 # desktop tools
 include_recipe 'mydevmachine::atom'
 include_recipe 'mydevmachine::owncloud-client'
+include_recipe 'mydevmachine::vagrant'
 include_recipe 'mydevmachine::virtualbox'
 
 # language tools
@@ -18,6 +19,3 @@ include_recipe 'mydevmachine::java'
 include_recipe 'mydevmachine::ruby'
 include_recipe 'mydevmachine::python'
 include_recipe 'mydevmachine::nodejs'
-
-# dev tools
-include_recipe 'mydevmachine::vagrant'
