@@ -1,10 +1,5 @@
 include_recipe 'apt'
 
-group 'dev' do
-  gid 2300
-  action :create
-end
-
 execute 'apt-get autoremove -y'
 
 # Setup users and base configs as defined in data_bag

@@ -1,3 +1,9 @@
+
+group 'dev' do
+  gid 2300
+  action :create
+end
+
 search(:users, "*:*").each do |user|
   user user['id'] do
     supports :manage_home => true
