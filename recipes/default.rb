@@ -13,6 +13,7 @@ include_recipe 'mydevmachine::atom'
 include_recipe 'mydevmachine::owncloud-client'
 include_recipe 'mydevmachine::vagrant'
 include_recipe 'mydevmachine::virtualbox'
+include_recipe 'mydevmachine::docker'
 
 # language tools
 include_recipe 'mydevmachine::java'
