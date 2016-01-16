@@ -14,6 +14,14 @@ search(:users, "*:*").each do |user|
     shell user['shell']
   end
 
+  user['groups'].each do |g|
+    group g do
+      action :modify
+      members user['id']
+      append true
+    end
+  end
+
   user['packages'].each do |package_name|
     package package_name
   end
