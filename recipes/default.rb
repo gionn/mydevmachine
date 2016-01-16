@@ -5,8 +5,9 @@ execute 'apt-get autoremove -y'
 # Setup users and base configs as defined in data_bag
 include_recipe 'mydevmachine::users'
 
-# base tools
+# shell tools
 include_recipe 'mydevmachine::zsh'
+include_recipe 'mydevmachine::autoenv'
 
 # desktop tools
 include_recipe 'mydevmachine::atom'
