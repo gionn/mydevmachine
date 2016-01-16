@@ -2,30 +2,24 @@ DEPENDENCIES
   mydevmachine
     path: .
     metadata: true
-  nvm
-    git: https://github.com/gionn/nvm.git
-    revision: 5c5b81e53c6370228f0e9e28afef018428035318
   prezto
     git: https://github.com/leifcr/chef-prezto.git
     revision: 7689e0e36e71b108cb52988e7cb05e522ac4824f
   pyenv
     git: https://github.com/sds/chef-pyenv.git
     revision: 57b8c75066f4268f81b4736cd77d6398c4edd08c
-  users
-    git: https://github.com/gionn/users.git
-    revision: fca9a42ab44dadbb98432c931dfc6c049ecc23ce
 
 GRAPH
   apt (2.9.2)
   build-essential (2.2.4)
   chef_handler (1.2.0)
   dmg (2.3.0)
-  git (4.3.4)
+  git (4.3.5)
     build-essential (>= 0.0.0)
     dmg (>= 0.0.0)
     windows (>= 0.0.0)
     yum-epel (>= 0.0.0)
-  java (1.36.0)
+  java (1.39.0)
     apt (>= 0.0.0)
   mydevmachine (0.1.0)
     apt (>= 0.0.0)
@@ -34,9 +28,11 @@ GRAPH
     prezto (>= 0.0.0)
     pyenv (>= 0.0.0)
     ruby_rbenv (>= 0.0.0)
+    users (>= 0.0.0)
     vagrant (>= 0.0.0)
-  nvm (0.1.6)
-    git (>= 2.1.0)
+  nvm (0.1.7)
+    build-essential (>= 0.0.0)
+    git (>= 0.0.0)
   prezto (0.1.4)
     git (>= 0.0.0)
     zsh (>= 0.0.0)
@@ -45,13 +41,13 @@ GRAPH
   ruby_rbenv (1.0.1)
     java (> 1.4.0)
     ruby_build (>= 0.0.0)
-  users (1.7.1)
-  vagrant (0.3.1)
+  users (2.0.1)
+  vagrant (0.4.2)
     dmg (>= 2.2.2)
-    windows (>= 1.30.2)
-  windows (1.38.4)
+    windows (~> 1.38)
+  windows (1.39.1)
     chef_handler (>= 0.0.0)
-  yum (3.8.2)
+  yum (3.9.0)
   yum-epel (0.6.5)
     yum (~> 3.2)
   zsh (1.0.3)
