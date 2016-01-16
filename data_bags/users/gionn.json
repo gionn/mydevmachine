@@ -35,7 +35,6 @@
     "export EDITOR=vim"
   ],
   "packages": [
-    "gnome-shell",
     "aptitude",
     "apt-file",
     "build-essential",
