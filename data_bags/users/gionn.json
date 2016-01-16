@@ -46,6 +46,7 @@
     "htop",
     "ifstat",
     "rsync",
+    "whois",
     "vim"
   ],
   "rubies": [
