@@ -45,6 +45,7 @@
     "git",
     "htop",
     "ifstat",
+    "postgresql-client-9.3",
     "rsync",
     "whois",
     "vim"
