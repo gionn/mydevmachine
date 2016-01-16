@@ -32,6 +32,7 @@
   "zshrc": [
     "_byobu_sourced=1 . /usr/bin/byobu-launch 2>/dev/null || true",
     "source /usr/local/share/autoenv/activate.sh",
+    "export IBUS_ENABLE_SYNC_MODE=1 # IDEA-78860",
     "export EDITOR=vim"
   ],
   "packages": [
