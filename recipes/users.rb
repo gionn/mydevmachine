@@ -16,7 +16,7 @@ search(:users, "*:*").each do |user|
 
   user['groups'].each do |g|
     group g do
-      action :modify
+      action :manage
       members user['id']
       append true
     end
