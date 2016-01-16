@@ -4,7 +4,7 @@
     "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAyD0CeGrHFGvipgB4xYEpl7C1xLly4UwVl43C8iq0ULtNs7exw3+anVGQzlWfIAJ7YJt5gBjRxDzYl2soXL0mAViOOykSFhfjWX6bgjSEAw9ZfIAYtykfuqjw0U/RbcdakA9sitV8Fkm/BQ42no1et5Oa4GUtJqwR2i++Zmh5EjMjb9TaH+ykhQlVs1W8Ej+m+5ZfoSDScpxtpDL/PCv4oNW0QM44nL0EOD0zJ8VudVNykGrHfwohld685bd35RVPAKWjCNfDCEkMnNr0ZXB0Wf8nx6tQ2D07ISz1YHtqdsVDFWcnWzNJXuUVZZqMQazsFcTGacBDiw6J0yec0z34ww== scorp@antani"
   ],
   "gid": "dev",
-  "groups": [ "sudo", "adm", "cdrom", "dip", "plugdev", "lpadmin", "sambashare", "dev" ],
+  "groups": [ "sudo", "adm", "cdrom", "dip", "plugdev", "lpadmin", "sambashare", "dev", "docker" ],
   "shell": "\/bin\/zsh",
   "prezto": {
     "theme": "steeef",
