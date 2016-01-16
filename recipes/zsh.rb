@@ -10,6 +10,7 @@ search(:users, "*:*").each do |user|
       'rows' => user['zshrc']
     })
     source 'zshrc.erb'
+    manage_symlink_source true
     action :create
   end
 end
