@@ -1,6 +1,11 @@
 {
   "name": "default",
   "default_attributes": {
+    "pyenv": {
+      "user_installs": [
+        { "user": "gionn" }
+      ]
+    },
     "vagrant": {
       "version": "1.7.2",
       "user": "gionn"
