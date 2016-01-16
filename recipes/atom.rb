@@ -4,4 +4,6 @@ apt_repository 'atom' do
   distribution node['lsb']['codename']
 end
 
-package 'atom'
+package 'atom' do
+  options '--no-install-recommends'
+end
