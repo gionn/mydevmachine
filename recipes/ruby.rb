@@ -8,10 +8,8 @@ end
   package dep_pkg
 end
 
-include_recipe "ruby_build"
-include_recipe "ruby_rbenv::user"
-
 search(:users, "*:*").each do |user|
+  rbenv_user_install user['id']
   user['rubies'].each do |version|
     rbenv_ruby version do
       user user['id']
