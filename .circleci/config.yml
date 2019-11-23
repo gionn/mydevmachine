@@ -1,0 +1,25 @@
+version: 2.1
+
+workflows:
+  main:
+    jobs:
+      - build
+
+jobs:
+  build:
+    machine:
+      image: ubuntu-1604:201903-01
+    steps:
+
+      - checkout
+
+      - run: rvm install 2.6 && echo . $(rvm 2.6 do rvm env --path) >> $BASH_ENV
+
+      - run:
+          name: dependencies
+          command: bundle install
+
+      - run:
+          name: test
+          command: bundle exec kitchen test
+

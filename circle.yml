@@ -1,9 +1,0 @@
-machine:
-  ruby:
-    version: 2.1.0
-  services:
-    - docker
-
-test:
-  override:
-    - bundle exec kitchen test
